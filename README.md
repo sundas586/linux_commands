@@ -10,28 +10,42 @@
 ## Absolute vs relative path
 
 - an absolute path always starts with / (i.e root)
+- cd [directory] ---> To move inside a subdirectory.
 
 ![ra2](https://user-images.githubusercontent.com/33677647/210182492-0e7a9b9d-dc2d-4839-9e24-0e0367979bfd.jpg)
 ![ra3](https://user-images.githubusercontent.com/33677647/210182493-ac61ba0b-690a-4c8b-abf3-a8844fedd5b5.png)
 ![ar](https://user-images.githubusercontent.com/33677647/210182583-f286d201-6d45-4a88-9e02-deb6d799a0b6.png)
 
 - pwd --> to see your current directory. (**parent** directory/ print working directory)
+
 - ls ---> to see all the folder of your current directory. (shows all the **children** of your current directory)
 - ls -R ---> to just see the recursive sub-directories of sub-directories.
-- touch .abc ---> to create a hidden file (put a dot before file name. a file which cannot be seen by the 'ls' command alone)
 - ls -a ----> to see all the hidden directories.
+
+- cd \	----> Move to the root folder of the file system.
+- cd .. ----> Move one level up (one folder) in the file system.
 - cd [directory] ---> To move inside a subdirectory.
+
 - mkdir [directory name] ---> to create new folder/ directory .
+- rmdir [directory name] ---> to delete a folder/ directory.
+
 - touch FileName.txt ---> creates a text file of name 'FileName'.
 - touch 1.txt ---> creates a text file of name '1'.
+- touch .abc ---> to create a hidden file (put a dot before file name. a file which cannot be seen by the 'ls' command alone)
+
+
 - mv 1.txt myFolder/ ---> it will move 1.txt inside a folder named myFolder.
 - cp 2.txt myFolder/ ---> it will copy 2.txt inside a folder named myFolder.
 - cp c/desktop/aaa.txt abc/xyz/ ---> Copies aaa.txt to new file path.
+
 - sudo apt-get update ---> This command updates the list for each outdated package that needs to get update on your system.
 - sudo apt-get upgrade ---> This command actually downloads the new versions of outdated packages and install them on your system.
+- sudo apt install [package name] ----> to install any package like snail, apache2 etc.
+
 - history ---> to see the history of all commands run by me.
-- echo Helow World ---> Hellow World
-- printf "Hellow World" ---> Hellow World
+
+- echo Helow World ---> Hellow World.
+- printf "Hellow World" ---> Hellow World.
 - 
 - 
 
