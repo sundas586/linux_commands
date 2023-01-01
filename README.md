@@ -1,3 +1,9 @@
+
+## Do not put your password in any linux command! otherwise it will get save in history and be visible to all
+
+
+
+
 # linux_commands
 - / ---> Root directory (as in linux , directories are arranged in a tree like structure)
 
@@ -23,6 +29,11 @@
 - cp c/desktop/aaa.txt abc/xyz/ ---> Copies aaa.txt to new file path.
 - sudo apt-get update ---> This command updates the list for each outdated package that needs to get update on your system.
 - sudo apt-get upgrade ---> This command actually downloads the new versions of outdated packages and install them on your system.
+- history ---> to see the history of all commands run by me.
+- echo Helow World ---> Hellow World
+- printf "Hellow World" ---> Hellow World
+- 
+- 
 
 ## Regular User VS Root User VS Service User :
 
