@@ -11,6 +11,9 @@
 
 - pwd --> to see your current directory. (**parent** directory/ print working directory)
 - ls ---> to see all the folder of your current directory. (shows all the **children** of your current directory)
+- ls -R ---> to just see the recursive sub-directories of sub-directories.
+- touch .abc ---> to create a hidden file (put a dot before file name. a file which cannot be seen by the 'ls' command alone)
+- ls -a ----> to see all the hidden directories.
 - cd [directory] ---> To move inside a subdirectory.
 - mkdir [directory name] ---> to create new folder/ directory .
 - touch FileName.txt ---> creates a text file of name 'FileName'.
