@@ -18,10 +18,12 @@
 - mv 1.txt myFolder/ ---> it will move 1.txt inside a folder named myFolder.
 - cp 2.txt myFolder/ ---> it will copy 2.txt inside a folder named myFolder.
 - cp c/desktop/aaa.txt abc/xyz/ ---> Copies aaa.txt to new file path.
+- sudo apt-get update ---> This command updates the list for each outdated package that needs to get update on your system.
+- sudo apt-get upgrade ---> This command actually downloads the new versions of outdated packages and install them on your system.
 
 ## Regular User VS Root User VS Service User :
 
-- A regular user has full control on his own dirctories
+- A regular user has full control on his own dirctories ($ represents regular user)
 - A Root/ admin/ Super user has access to the directory of all other peoples directories as well
 - A shortcut to run command as a root user is to use 'Sudo' before any command.<br/>
 E.g :<br/>
