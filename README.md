@@ -38,16 +38,21 @@
 - cp 2.txt myFolder/ ---> it will copy 2.txt inside a folder named myFolder.
 - cp c/desktop/aaa.txt abc/xyz/ ---> Copies aaa.txt to new file path.
 
+- sudo su ----> to convert from regular user to root user (it will as for admin password to conform)
 - sudo apt-get update ---> This command updates the list for each outdated package that needs to get update on your system.
 - sudo apt-get upgrade ---> This command actually downloads the new versions of outdated packages and install them on your system.
 - sudo apt install [package name] ----> to install any package like snail, apache2 etc.
+- sudo apt install vim ----> vim is a command line text editor, once you install vim, use can easily edit text editors in command line.
 
+- vim harry.txt ---> to change the content of a text file, vim is a text editor, 'i' for insert, ':w' to exit without save, ':wq' to exit with save.
 - history ---> to see the history of all commands run by me.
 
 - echo Helow World ---> Hellow World.
 - printf "Hellow World" ---> Hellow World.
-- 
-- 
+
+- top ---> shows the running components which are consuming your most resources.
+- ps ----> shows all running processes
+- Kill [PID number] ---> to kill any process using its process id (PID), just type ps, see all running commands, copy the PID of desired process to be killed.
 
 ## Regular User VS Root User VS Service User :
 
