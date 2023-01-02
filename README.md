@@ -67,6 +67,8 @@
 - ps ----> shows all running processes
 - Kill [PID number] ---> to kill any process using its process id (PID), just type ps, see all running commands, copy the PID of desired process to be killed.
 
+-wget www.githubuser/bible.txt --> Wget is a free command-line utility and network file downloader, this line will download bible from internet.
+
 - ssh myUserName@server_ip_address ---> to connect to to server using linux (it will ask for password)
 ![ooo](https://user-images.githubusercontent.com/33677647/210198386-149bbf98-f5f2-4697-9362-56273878c7af.png)
 - whoami ---> will show you the username
