@@ -19,6 +19,7 @@
 - pwd --> to see your current directory. (**parent** directory/ print working directory)
 
 - ls ---> to see all the folder of your current directory. (shows all the **children** of your current directory)
+- ls -l ---> to see all the folder of your current directory. in a nice way
 - ls -R ---> to just see the recursive sub-directories of sub-directories.
 - ls -a ----> to see all the hidden directories.
 
@@ -53,6 +54,10 @@
 - top ---> shows the running components which are consuming your most resources.
 - ps ----> shows all running processes
 - Kill [PID number] ---> to kill any process using its process id (PID), just type ps, see all running commands, copy the PID of desired process to be killed.
+
+- ssh myUserName@server_ip_address ---> to connect to to server using linux (it will ask for password)
+![ooo](https://user-images.githubusercontent.com/33677647/210198386-149bbf98-f5f2-4697-9362-56273878c7af.png)
+
 
 ## Regular User VS Root User VS Service User :
 
