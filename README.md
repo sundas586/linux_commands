@@ -26,9 +26,13 @@
 - cd \	----> Move to the root folder of the file system.
 - cd .. ----> Move one level up (one folder) in the file system.
 - cd [directory] ---> To move inside a subdirectory.
+- cd ----> get back home (location from where you started)
 
 - mkdir [directory name] ---> to create new folder/ directory .
 - rmdir [directory name] ---> to delete a folder/ directory.
+- rm myfile.txt ---> to remove a text file
+- rm -r abcFolder/ ---> as if you want to remove abcFolder, it will not untill all its subdirectories are removed, so use -r(recursive) to remove subdirectories.
+- 
 
 - touch FileName.txt ---> creates a text file of name 'FileName'.
 - touch 1.txt ---> creates a text file of name '1'.
@@ -44,12 +48,20 @@
 - sudo apt-get upgrade ---> This command actually downloads the new versions of outdated packages and install them on your system.
 - sudo apt install [package name] ----> to install any package like snail, apache2 etc.
 - sudo apt install vim ----> vim is a command line text editor, once you install vim, use can easily edit text editors in command line.
-
+- sudo useradd ali ---> to add a new user ali
+- passwd ---> to change your own password
 - vim harry.txt ---> to change the content of a text file, vim is a text editor, 'i' for insert, ':w' to exit without save, ':wq' to exit with save.
+
 - history ---> to see the history of all commands run by me.
+- cat myTextFile.txt ---> to see the text content of a file
+- shred myTextFile ---> if you dont want anyone else to see the text of this file, use shred command and the text will look like encripted to them
 
 - echo Helow World ---> Hellow World.
+- echo "This is a text I want to save in sunnybunny file" > sunnybunny.txt ----> save txt in a file using echo and '>'
 - printf "Hellow World" ---> Hellow World.
+- nano sunnybunny.txt ----> nano will open the file of given name so that you edit it, and save
+- vim harry.txt ---> to change the content of a text file, vim is a text editor, 'i' for insert, ':w' to exit without save, ':wq' to write n quit.
+
 
 - top ---> shows the running components which are consuming your most resources.
 - ps ----> shows all running processes
@@ -57,7 +69,10 @@
 
 - ssh myUserName@server_ip_address ---> to connect to to server using linux (it will ask for password)
 ![ooo](https://user-images.githubusercontent.com/33677647/210198386-149bbf98-f5f2-4697-9362-56273878c7af.png)
+- whoami ---> will show you the username
 
+### create a link to a file :
+ln -s mytextfile.txt iAmLink ---> (-s = soft) now "iAmLink" will act as a link for this particular text file. [ln -s fileName LinkName]
 
 ## Regular User VS Root User VS Service User :
 
