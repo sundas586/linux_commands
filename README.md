@@ -28,9 +28,9 @@ The MS-DOS Shell, csh, ksh, PowerShell, sh, and tcsh are a few examples of shell
 
 ![akakak](https://user-images.githubusercontent.com/33677647/221095688-faf24fc9-b82f-4159-a787-7bfdfbfe5f29.png)
 
+Like in windows, if we have not created any folder yet, by C\ folder is created by default in windows OS, similarly in linux kernel, the bydefault root folder is **/** , which is the main folder . Jesay C m sari configuration files befault mojud hoti han wesay hi linux m bhi config files **/** folder m mojud hoti han,
+jb hm linux install krtay han to jisay config files n folders C drive m befualt paray hotay han, wesay hi linux k "/" directory m bhi ye folders paray hotay han.
 
-
-Like in windows, if we have not created any folder yet, by C\ folder is created by default in windows OS, similarly in linux kernel, the bydefault root folder is **\** , which is the main root folder . Jesay C m sari configuration files befault mojud hoti han wesay hi linux m bhi config files **/** (root) folder m mojud hoti han
 
 ## Absolute vs relative path
 
