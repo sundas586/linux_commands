@@ -1,11 +1,36 @@
 
 ## Do not put your password in any linux command! otherwise it will get save in history and be visible to all
 
+##  LINUX vs Windows :
+
+Directory     |   Folder<br/> 
+Package       |   Software<br/> 
+Administrator |   root<br/> 
+File          |   File<br/>
+/             |   \     
+
+![akakak](https://user-images.githubusercontent.com/33677647/221095474-d0564289-1b8d-4a13-9650-283df63da09c.png)
+
+**HW** : RAM, Processors, Harddisk, etc.<br/>
+**Kernel vs OS** :<br/> 
+Kernel is a core element of the OS that converts the user query into the machine language. so that  hardware can understand the task.<br/>
+(The windows ka OS GUI based ha, jb hm os say koi task perform krtay han to wo command line m ja k wesay hi execute hota ha jesay hum direct linux ki command laga kr execute krtay han, to ya to GUI use kr k indirect way m command chalo k ye task perform kro computer, ya dirct cmd/ power shell m ja kr command chala do k ye kam kro computer, baat ak hi hogi, bs direct cmd m type krnay s speed bahr jati han q k UI ki ak layer kam hogai. Ub the thing is k chahe dirct command chalao ya GUI s command chalo ye commands cmd/powershell say hotay huay phir kernal k pass jati han or kernal in ko machine language 010101010 m convert kr dyta ha ta k Hardware ko smhj a jaye k krna kiya ha.)<br/> 
+**Shell** :<br/> 
+A shell is between the kernel and the user. A shell is a CLI (command-line interpreter). Hum chahe GUI krtay han to wo bhi pehlay CLI m ja k  run hota ha, CLI kernal ko ja kr btata he k bhai oper s ye order aya ha, phir kernal os order ko machine language m change kr dyta ha ta k hardware ko bhi smhj a jaye k ye ye kam krna ha.<br/>
+The MS-DOS Shell, csh, ksh, PowerShell, sh, and tcsh are a few examples of shells.
+
+## Advantages of Linux over windows :<br/> 
+
+**Speed** : Linux m say GUI ki layer hat jati ha, CLI(Shell) k zrye banda kernel s direct baat kr layta ha.<br/> 
+**Others** : While Linux is more commonly used in servers and supercomputers, and Windows is more popular among personal computers,  while Linux is known for its stability and security.<br/> 
+
+# Linux file system hierarchy :
+
+![akakak](https://user-images.githubusercontent.com/33677647/221095688-faf24fc9-b82f-4159-a787-7bfdfbfe5f29.png)
 
 
 
-# linux_commands
-- / ---> Root directory (as in linux , directories are arranged in a tree like structure)
+Like in windows, if we have not created any folder yet, by C\ folder is created by default in windows OS, similarly in linux kernel, the bydefault root folder is **\** , which is the main root folder . Jesay C m sari configuration files befault mojud hoti han wesay hi linux m bhi config files **/** (root) folder m mojud hoti han
 
 ## Absolute vs relative path
 
@@ -15,6 +40,8 @@
 ![ra2](https://user-images.githubusercontent.com/33677647/210182492-0e7a9b9d-dc2d-4839-9e24-0e0367979bfd.jpg)
 ![ra3](https://user-images.githubusercontent.com/33677647/210182493-ac61ba0b-690a-4c8b-abf3-a8844fedd5b5.png)
 ![ar](https://user-images.githubusercontent.com/33677647/210182583-f286d201-6d45-4a88-9e02-deb6d799a0b6.png)
+
+## Linux Commands
 
 - pwd --> to see your current directory. (**parent** directory/ print working directory)
 
