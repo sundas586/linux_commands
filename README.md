@@ -8,6 +8,7 @@ Package       |   Software<br/>
 Administrator |   root<br/> 
 File          |   File<br/>
 /             |   \     
+Root User     |   Administrater
 
 ![akakak](https://user-images.githubusercontent.com/33677647/221095474-d0564289-1b8d-4a13-9650-283df63da09c.png)
 
@@ -37,6 +38,29 @@ The MS-DOS Shell, csh, ksh, PowerShell, sh, and tcsh are a few examples of shell
 
 Like in windows, if we have not created any folder yet, by C\ folder is created by default in windows OS, similarly in linux kernel, the bydefault root folder is **/** , which is the main folder . Jesay C m sari configuration files befault mojud hoti han wesay hi linux m bhi config files **/** folder m mojud hoti han,
 jb hm linux install krtay han to jisay config files n folders C drive m befualt paray hotay han, wesay hi linux k "/" directory m bhi ye folders paray hotay han.
+
+![commands](https://user-images.githubusercontent.com/33677647/221376318-5c0d57d1-1eca-455b-bef5-faec9dc0a124.png)
+
+### /root vs /home :
+Agr hum nay koi or acount nahi bnaya to by-default hm root user m login kr jayengay jis ki file **/root** ha, lakin agr hum nay different accounts bnaye han to id-password k hisab say hi hr bnada apnay account m ja skta ha.
+or jo root user nahi hoga phir wo id-pass dal kr direct apnay regular acount m jaye ga jis ki file **/home** hoti ha, to wo jo bhi kam kryga /home ki directory m hi kryga. like : /home/waniya/abc.txt
+
+### /boot
+
+contains all files needed to boot up the system.
+
+### /etc :
+
+info of all configuration of your machine : harddisk , ram , processrores, etc.
+
+# /USR vs /opt :
+
+when ever we install any desired package(software) it is by default installed in /USR, if we want to install it in /opt, we can but /opt is optional, and /USR is by default.
+
+### /bin vs /sbin :
+
+The commands that can be used only by root user are stored in /sbin and the commands that can be used by other common users stored in /bin directory.
+
 
 
 ## Absolute vs relative path
