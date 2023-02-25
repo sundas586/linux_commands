@@ -22,7 +22,10 @@ The MS-DOS Shell, csh, ksh, PowerShell, sh, and tcsh are a few examples of shell
 ## Advantages of Linux over windows :<br/> 
 
 **Speed** : Linux m say GUI ki layer hat jati ha, CLI(Shell) k zrye banda kernel s direct baat kr layta ha.<br/> 
-**Others** : While Linux is more commonly used in servers and supercomputers, and Windows is more popular among personal computers,  while Linux is known for its stability and security.<br/> 
+**Open Source/ Free** : if you want to use windows in your personal PC then you can download crack, but if a company uses it, then they will have to pay alot of money to purchse windows for each laptop, on the other hand, linux is totally free, so thats why all comapies uses linux.
+**Security** :  
+- If a virus enters in any folder of windows OS, it slowly prevails in all files and folder and slows down the PC, on the other hand, first it is very difficult to attack a linux kernel, and even if virus somehow enters any folder, than it stays only in that folder and can not prevail in other files, therefore it is more secure.
+- Windows m agr virus a jaye to bohat mehabgay antivirus purchase krnay partay han, warna to phir pura windows dubara install kro, aray agr hamara system do saal s server par up tha ub ak galat file os m dalnay ki waja s virus ghus gya os m to m server m windows dubara thori krungi, company ka server down kr thori skti hun, jb k linux k case m ap simply effected file to delete kr k dusri file dal do na antivirus khareednay ki zrurt na dubara kernal install krnay ki zrurt k server bhi ban krna paray phir
 
 # Linux file system hierarchy :
 
