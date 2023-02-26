@@ -338,5 +338,5 @@ https://phoenixnap.com/kb/how-to-create-a-file-in-linux
 
 - press "i" to insert any text in text editor
 - after writing your desired text, after done, press "esc" button, so compiler will know that you are done.
-- then type ":wq" to save the text and get out of file.
+- then type ":wq" to save the text and get out of file.<br/>
 ![commands](https://user-images.githubusercontent.com/33677647/221407314-0e8d9d8d-bba5-4d05-a206-1b2011fa5d71.png)
