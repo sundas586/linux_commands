@@ -1,6 +1,8 @@
 
 ## Do not put your password in any linux command! otherwise it will get save in history and be visible to all
 
+![commands3](https://user-images.githubusercontent.com/33677647/221394543-aac8ecea-5570-4d40-9ff2-9f875b3dc52b.png)
+
 ##  LINUX vs Windows :
 
 Directory     |   Folder<br/> 
@@ -32,7 +34,13 @@ The MS-DOS Shell, csh, ksh, PowerShell, sh, and tcsh are a few examples of shell
 **Multi user, distributed system** : We have our server up and running with linux kernel installed, all employees can use its harddisk, CPU, and storage at same time from there pc, but in actual they will be using this servers resources, all we have to do is to make multiple user n ids for unlimited users.
 **So mant distributions** : the distributions of Windows (i.e window1,windows2,...11) are all made my Microsoft, BUT! there are a vast amount of linux distributions like ubuntu, kali linux, Redhd, Debian, Fidora
 
-# Linux file system hierarchy :
+# Linux file system hierarchy / EVERY THING IS LINUX IS A FILE!!!:
+
+- wheather it is your IP address or harddisk, RAM, storage info, Every thing is in a file.
+- even as simple as a "**ls command, is a file!**", stored in /bin directory 
+- So the fun thing is that the command "ls" that is used to list all files is its self a file :D
+
+![commands2](https://user-images.githubusercontent.com/33677647/221392614-d8044883-7fc4-4720-827d-e6746d09f593.png)
 
 ![akakak](https://user-images.githubusercontent.com/33677647/221095688-faf24fc9-b82f-4159-a787-7bfdfbfe5f29.png)
 
@@ -59,6 +67,8 @@ when ever we install any desired package(software) it is by default installed in
 
 ### /bin vs /sbin :
 
+- bin stands for **Binary**, and inside it are **command binaries** (i.e command files, because each command like pwd, ls, touch, they all are stored 
+in /bin or /sbin directory in form of a file)
 The commands that can be used only by root user are stored in /sbin and the commands that can be used by other common users stored in /bin directory.
 
 
@@ -100,6 +110,10 @@ The commands that can be used only by root user are stored in /sbin and the comm
 - mv 1.txt myFolder/ ---> it will move 1.txt inside a folder named myFolder.
 - cp 2.txt myFolder/ ---> it will copy 2.txt inside a folder named myFolder.
 - cp c/desktop/aaa.txt abc/xyz/ ---> Copies aaa.txt to new file path.
+- sudo cp ls new_ls             ---> copies the ls command file and put in a new file named new_ls
+- sudo rm ls                    ---> deletes the ls command file from /bin directory
+- new_ls                        ---> this will print the name of sub-directories of your current directory as this file is the copy of ls file
+- sudo cp new_ls ls             ---> to recover the ls file, just make a copy of new_ls.
 
 - sudo su ----> to convert from regular user to root user (it will as for admin password to conform)
 - sudo apt-get update ---> This command updates the list for each outdated package that needs to get update on your system.
@@ -120,6 +134,8 @@ The commands that can be used only by root user are stored in /sbin and the comm
 - nano sunnybunny.txt ----> nano will open the file of given name so that you edit it, and save
 - vim harry.txt ---> to change the content of a text file, vim is a text editor, 'i' for insert, ':w' to exit without save, ':wq' to write n quit.
 
+- which abc.txt ---> the if you have twp files of same name = abc.txt, stored in /a directory and also stored in /b directory, then which command will tell you k ye konsi    directory wali file ha. (which abc.txt ---> /b/abc.txt)
+ 
 
 - top ---> shows the running components which are consuming your most resources.
 - ps ----> shows all running processes
