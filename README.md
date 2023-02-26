@@ -1,20 +1,3 @@
-
-## Do not put your password in any linux command! otherwise it will get save in history and be visible to all
-
-![commands3](https://user-images.githubusercontent.com/33677647/221394543-aac8ecea-5570-4d40-9ff2-9f875b3dc52b.png)
-
-##  LINUX vs Windows :
-
-Directory     |   Folder<br/> 
-Package       |   Software<br/> 
-Administrator |   root<br/> 
-File          |   File<br/>
-/             |   \     
-Root User     |   Administrater
-
-![akakak](https://user-images.githubusercontent.com/33677647/221095474-d0564289-1b8d-4a13-9650-283df63da09c.png)
-
-**HW** : RAM, Processors, Harddisk, etc.<br/>
 ## Do not put your password in any linux command! otherwise it will get save in history and be visible to all
 
 ![commands3](https://user-images.githubusercontent.com/33677647/221394543-aac8ecea-5570-4d40-9ff2-9f875b3dc52b.png)
@@ -340,7 +323,7 @@ if you want to create a new file abc.txt in someone esle directory, just simply 
 
 https://phoenixnap.com/kb/how-to-create-a-file-in-linux
 
-- cat = cat command can only create a file and we can also put text in it, but when it come to edit the text again, cat is not helpful.
+- cat = cat command can only create a file and we can also put text in it, but when it come to edit the text again, cat is not helpful. 
 - touch is only used to create  a empty file, no text putting or editing.
 -  THE EDITORS :
 - the VI/ VIM/ NANO commands are called editors because if we want to edit a file, we can adit them using one of these commands,
@@ -349,4 +332,11 @@ https://phoenixnap.com/kb/how-to-create-a-file-in-linux
 
 ![commands4](https://user-images.githubusercontent.com/33677647/221396348-5fcadf1f-64d5-40d0-b765-541cf9a5adbb.png)
 
+- Cat is useful to combine multiple text file together as on
+- touch is useful as it keeps the timestamp of file creation and updation.
+- VI is less user friendly but more powerful than Nano
 
+- press "i" to insert any text in text editor
+- after writing your desired text, after done, press "esc" button, so compiler will know that you are done.
+- then type ":wq" to save the text and get out of file.
+![commands](https://user-images.githubusercontent.com/33677647/221407314-0e8d9d8d-bba5-4d05-a206-1b2011fa5d71.png)
