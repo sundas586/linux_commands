@@ -97,7 +97,8 @@ The commands that can be used only by root user are stored in /sbin and the comm
 
 - mkdir [directory name] ---> to create new folder/ directory .
 - rmdir [directory name] ---> to delete a folder/ directory.
-- rm myfile.txt ---> to remove a text file
+- mkdir -p dirA/dirB/dirC ---> making directory into directory into directory at once 
+- rm myfile.txt ---> to remove a text file, here -p stands for "parent"
 - rm -r abcFolder/ ---> as if you want to remove abcFolder, it will not untill all its subdirectories are removed, so use -r(recursive) to remove subdirectories.
 - 
 
@@ -251,14 +252,19 @@ The commands that can be used only by root user are stored in /sbin and the comm
 - ls -a ----> to see all the hidden directories.
 
 - cd \	----> Move to the root folder of the file system.
-- cd .. ----> Move one level up (one folder) in the file system.
+- cd .. ----> Move one level back (one folder) in the file system.
 - cd [directory] ---> To move inside a subdirectory.
 - cd ----> get back home (location from where you started)
+- cd ../../.. ---> to move 3 directories back at once :
+
+![cd](https://user-images.githubusercontent.com/33677647/221429865-9288af9a-3032-4caf-a764-6efd9e062283.png)
+
 
 - mkdir [directory name] ---> to create new folder/ directory .
 - rmdir [directory name] ---> to delete a folder/ directory.
 - rm myfile.txt ---> to remove a text file
 - rm -r abcFolder/ ---> as if you want to remove abcFolder, it will not untill all its subdirectories are removed, so use -r(recursive) to remove subdirectories.
+- rm -rf abcFolder/ ---> force delete a directory containing more files inside at once.
 - 
 
 - touch FileName.txt ---> creates a text file of name 'FileName'.
