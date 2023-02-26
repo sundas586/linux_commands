@@ -340,3 +340,9 @@ https://phoenixnap.com/kb/how-to-create-a-file-in-linux
 - after writing your desired text, after done, press "esc" button, so compiler will know that you are done.
 - then type ":wq" to save the text and get out of file.<br/>
 ![commands](https://user-images.githubusercontent.com/33677647/221407314-0e8d9d8d-bba5-4d05-a206-1b2011fa5d71.png)
+
+- But in files created by nano , press crtonl + X to stop writing and capital Y to exit.
+
+- stat abc.txt = ye command file/directory ki creation, modification, sb k time stamp print kr dyti han. on ka size, or permissions wagaira bho print kr dyti ha
+
+![stat](https://user-images.githubusercontent.com/33677647/221417536-a26e9779-4c89-44eb-82af-55db2014907b.png)
