@@ -160,6 +160,17 @@ if you want to create a new file abc.txt in someone esle directory, just simply 
 (sudo touch abc.txt)<br/>
 - Service users a the user working on servers<br/>
 
+## Different ways to create file in Linux (please check it out) :
 
+https://phoenixnap.com/kb/how-to-create-a-file-in-linux
+
+- cat = cat command can only create a file and we can also put text in it, but when it come to edit the text again, cat is not helpful.
+- touch is only used to create  a empty file, no text putting or editing.
+-  THE EDITORS :
+- the VI/ VIM/ NANO commands are called editors because if we want to edit a file, we can adit them using one of these commands,
+- Vi is older, Vim is old, Nano is the latest and most user friendlyu command.
+-  please checkout the link above .
+
+![commands4](https://user-images.githubusercontent.com/33677647/221396348-5fcadf1f-64d5-40d0-b765-541cf9a5adbb.png)
 
 
