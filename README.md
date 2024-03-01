@@ -1,4 +1,12 @@
-## Do not put your password in any linux command! otherwise it will get save in history and be visible to all
+- to run a command directly on server screen :
+- "nohup sh_command &"
+- Now to see it :
+- go to root :
+- "cd"
+- and see tail :
+- "tail nohup"
+
+## Do not put your password in any Linux command! otherwise, it will get saved in history and be visible to all
 
 ![commands3](https://user-images.githubusercontent.com/33677647/221394543-aac8ecea-5570-4d40-9ff2-9f875b3dc52b.png)
 
