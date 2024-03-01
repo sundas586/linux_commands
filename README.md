@@ -1,10 +1,13 @@
-- to run a command directly on server screen :
+### to run a command directly on the server screen :
 - "nohup sh_command &"
 - Now to see it :
 - go to root :
 - "cd"
 - and see tail :
 - "tail nohup"
+
+### To check k the server default time zone (time & date) :
+- "timedatectl" 
 
 ## Do not put your password in any Linux command! otherwise, it will get saved in history and be visible to all
 
